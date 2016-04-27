@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML5 APIs: Assignment 3</title>
+  </head>
+  <body>
+    <h1>Numbers and Strings</h1>
+    <form>
+      <label for="the-input">Enter numbers or text:</label><br>
+      <textarea rows="4" cols="50" id="the-input"></textarea><br>
+      <button type="submit" id="submit">Submit</button>
+      <button type="button" id="reset">Reset</button>
+      
+    </form>
+    <h2>The Numbers</h2>
+    <table>
+      <tr>
+        <td>Count</td>
+        <td id="count"></td>
+      </tr>
+      <tr>
+        <td>Sum</td>
+        <td id="sum"></td>
+      </tr>
+      <tr>
+        <td>Average</td>
+        <td id="average"></td>
+      </tr>
+    </table>
+    <h2>The Strings</h2>
+    <h4>Concatenated:</h4>
+    <div id="message"></div>
+
+    <script src="../jquery-2.2.3.min.js"></script>
+    <script src="ArrayStats.js"></script>
+  </body>
+</html>
